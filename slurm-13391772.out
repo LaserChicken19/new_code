@@ -1,0 +1,234 @@
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+check point 1 passed
+check point 2 passed
+check point 3 passed
+total line is 24
+In matterpower (GSL tab), skipping 1 lines
+The 0 th x is -4.000000 with k being 0.000100 
+The 1 th x is -3.991315 with k being 0.000102 
+The 2 th x is -3.982629 with k being 0.000104 
+The 3 th x is -3.973941 with k being 0.000106 
+The 4 th x is -3.965255 with k being 0.000108 
+The 5 th x is -3.956571 with k being 0.000111 
+The 6 th x is -3.947883 with k being 0.000113 
+The 7 th x is -3.939200 with k being 0.000115 
+The 8 th x is -3.930513 with k being 0.000117 
+The 9 th x is -3.921826 with k being 0.000120 
+The 10 th x is -3.921826 with k being 0.000120 
+The 11 th x is -3.921826 with k being 0.000120 
+The 12 th x is -3.921826 with k being 0.000120 
+The 13 th x is -3.921826 with k being 0.000120 
+The 14 th x is -3.921826 with k being 0.000120 
+The 15 th x is -3.921826 with k being 0.000120 
+The 16 th x is -3.921826 with k being 0.000120 
+The 17 th x is -3.921826 with k being 0.000120 
+The 18 th x is -3.921826 with k being 0.000120 
+The 19 th x is -3.921826 with k being 0.000120 
+The 20 th x is -3.921826 with k being 0.000120 
+The 21 th x is -3.921826 with k being 0.000120 
+The 22 th x is -3.921826 with k being 0.000120 
+gsl: interp.c:83: ERROR: x values must be strictly increasing
+Default GSL error handler invoked.
+check point 1 passed
+check point 2 passed
+check point 3 passed
+total line is 2
+In matterpower (GSL tab), skipping 0 lines
+gsl: interp.c:38: ERROR: insufficient number of points for interpolation type
+Default GSL error handler invoked.
+srun: error: nid00698: tasks 28,60: Aborted
+srun: Terminating job step 13391772.0
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+srun: error: nid00698: tasks 10,34: Segmentation fault
+srun: error: nid00698: tasks 1,3-9,11-27,29-33,35-59,61-63: Segmentation fault
+srun: error: nid00698: tasks 0,2: Segmentation fault

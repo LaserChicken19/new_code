@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+#include<time.h>
 #include"recipes/nrutil.h" 
 #include"recipes/nr.h"
 #include <gsl/gsl_spline.h>
@@ -9,6 +10,7 @@
 #include <gsl/gsl_sf_bessel.h>
 #include "declarations.h" 
 
+int gCounter=0;
 void spline_r(double omega_m, double eqstate, double wprime)
 {
     // DIMENSIONLESS comoving distance r(z)
@@ -67,6 +69,7 @@ void spline_Pk_from_CAMB(double z, double omega_m, double w0, double wa, double 
     FILE  *ifp;
     
     NSPLINE_PK_CAMB = file_eof_linecount("matterpower.dat");
+    printf("total line is %d\n",NSPLINE_PK_CAMB);
     /****************************************************************************/
     /** Check if the first line starts with hashtag (ie. has variable names)   **/
     /** and skip that first line if that's the case                            **/
@@ -96,6 +99,7 @@ void spline_Pk_from_CAMB(double z, double omega_m, double w0, double wa, double 
     {
         fscanf(ifp, "%lf %lf\n", &k, &Pk_CAMB);
         x[i] = log10(k);
+	//printf("The %d th x is %lf with k being %lf \n",i,x[i],k);
         y[i] = log10(Pk_CAMB);
     }
     fclose(ifp);
@@ -482,14 +486,14 @@ void spline_jlprime_range_ell_NR(int lmax)
         {
             arg = min_arg * exp((i-1)*dln_arg);
 
-            //printf("HERE %e (l=%d)\n", arg, l);
+           // printf("HERE %e (l=%d)\n", arg, l);
             xx_jlprime[l+1][i] = arg;
             if (arg < 0.1*l)   // at arg<<l, jl'(arg) hugs zero like cra-a-zy and GSL can give an underflow (Oct 2016)
                 yy_jlprime[l+1][i] = 0;
             else
                 yy_jlprime[l+1][i] = jl_prime(l, arg);
         }
-        
+        //printf("im here with l=%d, xxjp=%lf, yyjp=%lf\n",l,xx_jlprime[l+1],yy_jlprime[l+1]);
         // spline each value of l
         my_spline(xx_jlprime[l+1], yy_jlprime[l+1], NSPLINE_JLPRIME_NR, 0, 1e31, y2_jlprime[l+1]);
 
@@ -595,7 +599,8 @@ double Cij_theta_vel_integrand(double log10k, void *p)
         // checked same result with jlprime_NR_tab as with jlprime_tab and jl_prime - Apr 2016
         sum += (2*ell+1) * jlprime_NR_tab(ell, k*chi1) *  jlprime_NR_tab(ell, k*chi2) * fac;
     }
-
+    //printf("im called for the %d, time!\n",gCounter);
+    //gCounter+=1;
     return(prefac0*prefac1*prefac2*prefac3*sum );
 }
 double Cij_theta_gsl_int(int i, int j, double z1, double z2, double costh, double omega_m, double w0, double wa)
@@ -631,13 +636,17 @@ double Cij_theta_gsl_int(int i, int j, double z1, double z2, double costh, doubl
     else                                   log10_kmax_func_of_z = 0.5; // agrees with LOG10_KMAX_CIJ_INT
     //FIX
     //log10_kmax_func_of_z=0.0;
-    
+    time_t start_t, end_t;
+    double diff_t;
+    time(&start_t);
     gsl_integration_qag (&F, LOG10_KMIN_CIJ_INT, log10_kmax_func_of_z,
-                         1.0e-7, 1.0e-2, 1000, 1, work, &result, &error);  // -2 is good enough for rel, given LMAX and KMAX unc
+                         1.0e-7, 5e-1, 1000, 1, work, &result, &error);  // -2 is good enough for rel, given LMAX and KMAX unc
     //printf ("result          = % .18f\n", result);
-    //printf ("estimated error = % .18f\n", error);
-    //printf ("intervals =  %d\n", work->size);
-  
+    printf ("i=%d, j=%d, estimated error = % .18f\n",i,j, error);
+    printf ("intervals =  %d\n", work->size);
+    time(&end_t);
+    diff_t=difftime(end_t,start_t);
+    printf("i=%d, j=%d, z1=%lf, z2=%lf,lower=%lf, upper=%lf, time=%lf, cos=%lf\n",i,j,z1, z2,LOG10_KMIN_CIJ_INT, log10_kmax_func_of_z,diff_t,costh);
     gsl_integration_workspace_free (work);
 
     return(result);

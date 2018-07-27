@@ -226,7 +226,7 @@ double Cij_theta_gsl_int(int i, int j, double z1, double z2, double costh, doubl
 
 
 void run_camb_get_Tk_friendly_format(int do_nonlinear, double omega_m, double omhh_local, double obhh_local, double ns, 
-                                     double dn_dlnk, double A_k_WMAP, double w0);
+                                     double dn_dlnk, double A_k_WMAP, double w0,double r_s);
 /* integration stuff */
 struct Cij_params {int a; double b; double c;};
 struct Cij_theta_params {int a; int b; double c; double d; double  e; double f; double g; double h;};
@@ -238,11 +238,10 @@ gsl_histogram *Tl_over_Cl_hist[L_MAX_CALIB];
 /*********************************/
 int  N_SN, NG_LIKE_CORRECTION, MARG_OVER_SCRIPTM;
 void read_SN_pos(double **SN_z_th_phi, char *filename);
-void read_pos_noise(int d, double **SN_z_th_phi, double *delta_m, double **Noise_Cov,
-                  char *filename, char*file_noise_cov);
+void read_pos_noise(int d, double **SN_z_th_phi, double *delta_m, char *filename);
 void order_SN_increasing_z(int nsn,double **SN_z_th_phi, double **Noise_C,double *delta_m);
 void order_whole_SN_file_in_z(char *file_in, char *file_out);
-void calculate_Cov_vel_of_SN(int nmax, double **SN_z_th_phi, double **Signal_SN, 
+void calculate_Cov_vel_of_SN(int i_1,int j_1,int ij_size,  double **SN_z_th_phi, double **Signal_SN, 
                              double omega_m, double w0, double wa);
 void calculate_Signal_given_z_theta_arr(int ncosalpha, int nz, double *cosalpha_arr, double *z_arr, double ***Signal_tensor,
                                         double omega_m, double w0, double wa);
@@ -293,7 +292,7 @@ int file_eof_linecount(char *filename);
 int count_columns_in_last_line_file(char *filename) ;
 int nskip_first_line_of_file_or_not(char *filename) ;
 void write_params_ini(FILE *ifp, int do_nonlinear, double H0, double obhh, double ochh, double ns, 
-		      double dn_dlnk, double As, double w0);
+		      double dn_dlnk, double As, double w0,double r_s);
 /**************************************/
 /** power spectrum tabulation and NL **/
 /***************************************/

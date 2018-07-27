@@ -10,8 +10,7 @@
 #include"recipes/nr.h"
 #include"declarations.h"
 
-void run_camb_get_Tk_friendly_format(int do_nonlinear, double omega_m, double omhh_local, double obhh_local, double n, 
-                                     double dn_dlnk, double A_k005, double w0)
+void run_camb_get_Tk_friendly_format(int do_nonlinear, double omega_m, double omhh_local, double obhh_local, double n, double dn_dlnk, double A_k005, double w0,  double r_s)
 {
     int  i;
     double h, H0, ochh;
@@ -29,13 +28,14 @@ void run_camb_get_Tk_friendly_format(int do_nonlinear, double omega_m, double om
     /** Write out the initialization parameter file **/
     /*************************************************/
     ifp=fopen("my_params.ini", "w"); 
-    write_params_ini(ifp, do_nonlinear, H0, obhh_local, ochh, n, dn_dlnk, A_k005, w0);
+    write_params_ini(ifp, do_nonlinear, H0, obhh_local, ochh, n, dn_dlnk, A_k005, w0,r_s);
     fclose(ifp); 
 
     /******************************************/
     /** Run camb; really camb my_params.ini **/
     /*****************************************/
-    system("camb my_params.ini");
+    system("~/new_code/CAMB/camb my_params.ini");
+    //system("camb my_params.ini");
     
     /****************************************************************************/
     /** Convert T(k) into properly normalized T(k) which is 1 on large scales  **/
@@ -93,8 +93,10 @@ void run_camb_get_Tk_friendly_format(int do_nonlinear, double omega_m, double om
     system("rm -rf transfer_out.dat");
 
 }
+
+//Im adding another argument, r_s = redshift to this function. 07/03/2018
 void write_params_ini(FILE *ifp, int do_nonlinear, double H0, double obhh_local, double ochh, double ns, 
-		      double dn_dlnk, double As, double w)
+		      double dn_dlnk, double As, double w, double r_s)
 {
 
       /*Parameters for CAMB */    
@@ -199,7 +201,9 @@ void write_params_ini(FILE *ifp, int do_nonlinear, double H0, double obhh_local,
       fprintf(ifp, "%s\n", "transfer_kmax           = 100.0");
       fprintf(ifp, "%s\n", "transfer_k_per_logint   = 5");
       fprintf(ifp, "%s\n", "transfer_num_redshifts  = 1");
-      fprintf(ifp, "%s\n", "transfer_redshift(1)    = 0");
+
+      //Chao: here a user-specified redshift is added
+      fprintf(ifp, "%s %f\n", "transfer_redshift(1)    = ", r_s);
       fprintf(ifp, "%s\n", "transfer_filename(1)    = transfer_out.dat");
 
       /* Matter power spectrum output against k/h in units of h^3 Mpc^{-3}*/

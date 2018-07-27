@@ -38,8 +38,7 @@ void read_SN_pos(double **SN_z_th_phi, char *filename)
     }
     fclose(ifp1);
 }
-void read_pos_noise(int OFFDIAG, double **SN_z_th_phi, double *delta_m, double **Noise_Cov,
-                  char   *filename,   char *file_noise_cov)
+void read_pos_noise(int OFFDIAG, double **SN_z_th_phi, double *delta_m, char *filename)
 {
     int i,j;
     double z,m,cov,sigma_m, m_th, l_gal, b_gal;
@@ -80,37 +79,37 @@ void read_pos_noise(int OFFDIAG, double **SN_z_th_phi, double *delta_m, double *
     }
     fclose(ifp1);
 
-    if (OFFDIAG != -1)
-    {
-        ifp1=fopen(file_noise_cov, "r");
-        for(i=1; i<=N_SN; i++)
-        {
-            for(j=1; j<=N_SN; j++)
-            {
-                fscanf(ifp1, "%lf ", &cov);
+    //if (OFFDIAG != -1)
+   // {
+     //   ifp1=fopen(file_noise_cov, "r");
+     //   for(i=1; i<=N_SN; i++)
+     //   {
+     //       for(j=1; j<=N_SN; j++)
+     //       {
+     //           fscanf(ifp1, "%lf ", &cov);
                 //if ((i == 208 || i == 207) && (j == 208)) printf("Cov=%f\n", cov);
-                Noise_Cov[i][j] = cov;
-            }
-            fscanf(ifp1, "\n");
-        }
-        fclose(ifp1);
-    }
-    else // if using N_ii = sigma^2        
-    {
-        for(i=1; i<=N_SN; i++)
-            for(j=1; j<=N_SN; j++)
-            {
-                if (i == j)
-                {
-                    z = SN_z_th_phi[i][1];
+     //           Noise_Cov[i][j] = cov;
+     //       }
+     //       fscanf(ifp1, "\n");
+     //   }
+     //   fclose(ifp1);
+   // }
+   // else // if using N_ii = sigma^2        
+   // {
+     //   for(i=1; i<=N_SN; i++)
+      //      for(j=1; j<=N_SN; j++)
+       //     {
+        //        if (i == j)
+        //        {
+         //           z = SN_z_th_phi[i][1];
                     //prefac = 5/log(10.0) * (1 - (1+z)/H_dimless(z, 0.3, -1.0, 0.0)/r_dimless_tab(z));
                     // no need to add 300km/s any more
                     //Noise_Cov[i][j] = pow(SN_z_th_phi[i][4], 2) + pow(prefac * 300.0/3.0e5, 2);
-                    Noise_Cov[i][j] = pow(SN_z_th_phi[i][4], 2);
-                }
-                else        Noise_Cov[i][j] = 0;
-            }
-    }
+           //         Noise_Cov[i][j] = pow(SN_z_th_phi[i][4], 2);
+            //    }
+          //      else        Noise_Cov[i][j] = 0;
+           // }
+   // }
 }
 void order_SN_increasing_z(int nsn, double **SN_z_th_phi, double **Noise_Cov, double *delta_m)
 {
@@ -151,7 +150,7 @@ void order_SN_increasing_z(int nsn, double **SN_z_th_phi, double **Noise_Cov, do
         for(j=1; j<=nsn; j++)
             Noise_Cov[i][j]   = Noise_Cov_copy[indx[i]][indx[j]];
     }
-    ifp=fopen("OUTPUT/ordered_z_SN.dat", "w");
+    ifp=fopen("ordered_z_SN.dat", "w");
     for(i=1; i<=nsn; i++)
         fprintf(ifp, "%d %f\n", i, SN_z_th_phi[i][1]);
     fclose(ifp);
@@ -205,22 +204,22 @@ void order_whole_SN_file_in_z(char *file_in, char *file_out)
 
 
 
-void calculate_Cov_vel_of_SN(int nmax, double **SN_z_th_phi, double **Signal_SN,
+void calculate_Cov_vel_of_SN(int i_1,int j_1, int ij_size,  double **SN_z_th_phi, double **Signal_SN,
                              double omega_m, double w0, double wa)
 {
 
     int  i;
-#pragma omp parallel for default(none) shared(nmax, Signal_SN, SN_z_th_phi, omega_m, w0, wa) schedule(dynamic)  
+#pragma omp parallel for default(none) shared(i_1,j_1,ij_size,  Signal_SN, SN_z_th_phi, omega_m, w0, wa) schedule(dynamic)  
     
-    for(i=1; i<=nmax; i++)
+    for(i=i_1; i<=i_1+ij_size-1; i++)
     {
-        int th_id = omp_get_thread_num();
+        //int th_id = omp_get_thread_num();
         //printf("i=%d from thread  %d, redshift=%f\n", i, th_id, SN_z_th_phi[i][1]);
         
         int j;
         double cosalpha, dum;    
 
-        for(j=i; j<= nmax; j++) // upper triangular
+        for(j=j_1+i-i_1; j<=j_1+ij_size-1 ; j++) // upper triangular
         {
             if (i == j) cosalpha=1.0;
             else 
@@ -229,9 +228,9 @@ void calculate_Cov_vel_of_SN(int nmax, double **SN_z_th_phi, double **Signal_SN,
 
             dum = Cij_theta_gsl_int(i, j, SN_z_th_phi[i][1], SN_z_th_phi[j][1], 
                                     cosalpha, omega_m, w0, wa);
-
-            Signal_SN[i][j] = dum;
-            Signal_SN[j][i] = Signal_SN[i][j];
+            //printf("calculating i=%d, j=%d\n",i-i_1+1,j-j_1+1);
+            Signal_SN[i-i_1+1][j-j_1+1] = dum;
+            Signal_SN[j-j_1+1][i-i_1+1] = dum;
 
         }
     }

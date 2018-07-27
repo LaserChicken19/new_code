@@ -1,0 +1,818 @@
+ key not found : get_scalar_cls
+ key not found : get_scalar_cls
+ key not found : get_scalar_cls
+ key not found : get_scalar_cls
+ key not found : get_scalar_cls
+ key not found : get_scalar_cls
+ key not found : get_scalar_cls
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+srun: error: nid00903: tasks 0,4,9,14,18,24,30: Segmentation fault
+srun: Terminating job step 13390379.0
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+check point 1 passed
+check point 2 passed
+check point 3 passed
+In matterpower (GSL tab), skipping 1 lines
+The 0 th x is -4.000000 with k being 0.000100 
+The 1 th x is -3.991315 with k being 0.000102 
+The 2 th x is -3.982629 with k being 0.000104 
+The 3 th x is -3.973941 with k being 0.000106 
+The 4 th x is -3.965255 with k being 0.000108 
+The 5 th x is -3.956571 with k being 0.000111 
+The 6 th x is -3.947883 with k being 0.000113 
+The 7 th x is -3.939200 with k being 0.000115 
+The 8 th x is -3.930513 with k being 0.000117 
+The 9 th x is -3.921826 with k being 0.000120 
+The 10 th x is -3.913142 with k being 0.000122 
+The 11 th x is -3.904454 with k being 0.000125 
+The 12 th x is -3.895769 with k being 0.000127 
+The 13 th x is -3.887083 with k being 0.000130 
+The 14 th x is -3.878397 with k being 0.000132 
+The 15 th x is -3.869711 with k being 0.000135 
+The 16 th x is -3.861025 with k being 0.000138 
+The 17 th x is -3.852339 with k being 0.000140 
+The 18 th x is -3.843654 with k being 0.000143 
+The 19 th x is -3.834969 with k being 0.000146 
+The 20 th x is -3.826284 with k being 0.000149 
+The 21 th x is -3.817597 with k being 0.000152 
+The 22 th x is -3.808910 with k being 0.000155 
+The 23 th x is -3.800226 with k being 0.000158 
+The 24 th x is -3.791540 with k being 0.000162 
+The 25 th x is -3.782853 with k being 0.000165 
+The 26 th x is -3.774166 with k being 0.000168 
+The 27 th x is -3.765480 with k being 0.000172 
+The 28 th x is -3.756796 with k being 0.000175 
+The 29 th x is -3.748109 with k being 0.000179 
+The 30 th x is -3.739423 with k being 0.000182 
+The 31 th x is -3.730737 with k being 0.000186 
+The 32 th x is -3.722052 with k being 0.000190 
+The 33 th x is -3.713366 with k being 0.000193 
+The 34 th x is -3.704679 with k being 0.000197 
+The 35 th x is -3.695994 with k being 0.000201 
+The 36 th x is -3.687309 with k being 0.000205 
+The 37 th x is -3.678621 with k being 0.000210 
+The 38 th x is -3.669935 with k being 0.000214 
+The 39 th x is -3.661251 with k being 0.000218 
+The 40 th x is -3.652565 with k being 0.000223 
+The 41 th x is -3.643878 with k being 0.000227 
+The 42 th x is -3.635192 with k being 0.000232 
+The 43 th x is -3.626507 with k being 0.000236 
+The 44 th x is -3.617821 with k being 0.000241 
+The 45 th x is -3.609136 with k being 0.000246 
+The 46 th x is -3.600449 with k being 0.000251 
+The 47 th x is -3.591763 with k being 0.000256 
+The 48 th x is -3.583077 with k being 0.000261 
+The 49 th x is -3.574391 with k being 0.000266 
+The 50 th x is -3.565706 with k being 0.000272 
+The 51 th x is -3.557020 with k being 0.000277 
+The 52 th x is -3.548333 with k being 0.000283 
+The 53 th x is -3.539648 with k being 0.000289 
+The 54 th x is -3.530962 with k being 0.000294 
+The 55 th x is -3.522275 with k being 0.000300 
+The 56 th x is -3.513591 with k being 0.000306 
+The 57 th x is -3.504904 with k being 0.000313 
+The 58 th x is -3.496219 with k being 0.000319 
+The 59 th x is -3.487533 with k being 0.000325 
+The 60 th x is -3.478846 with k being 0.000332 
+The 61 th x is -3.470160 with k being 0.000339 
+The 62 th x is -3.461475 with k being 0.000346 
+The 63 th x is -3.452789 with k being 0.000353 
+The 64 th x is -3.444103 with k being 0.000360 
+The 65 th x is -3.435417 with k being 0.000367 
+The 66 th x is -3.426731 with k being 0.000374 
+The 67 th x is -3.418046 with k being 0.000382 
+The 68 th x is -3.409360 with k being 0.000390 
+The 69 th x is -3.400674 with k being 0.000397 
+The 70 th x is -3.391988 with k being 0.000406 
+The 71 th x is -3.383302 with k being 0.000414 
+The 72 th x is -3.374616 with k being 0.000422 
+The 73 th x is -3.365930 with k being 0.000431 
+The 74 th x is -3.357244 with k being 0.000439 
+The 75 th x is -3.348558 with k being 0.000448 
+The 76 th x is -3.339873 with k being 0.000457 
+The 77 th x is -3.331187 with k being 0.000466 
+The 78 th x is -3.322501 with k being 0.000476 
+The 79 th x is -3.313814 with k being 0.000485 
+The 80 th x is -3.305129 with k being 0.000495 
+The 81 th x is -3.296443 with k being 0.000505 
+The 82 th x is -3.287757 with k being 0.000516 
+The 83 th x is -3.279071 with k being 0.000526 
+The 84 th x is -3.270385 with k being 0.000537 
+The 85 th x is -3.261699 with k being 0.000547 
+The 86 th x is -3.253013 with k being 0.000558 
+The 87 th x is -3.244328 with k being 0.000570 
+The 88 th x is -3.235642 with k being 0.000581 
+The 89 th x is -3.226956 with k being 0.000593 
+The 90 th x is -3.218270 with k being 0.000605 
+The 91 th x is -3.209584 with k being 0.000617 
+The 92 th x is -3.200898 with k being 0.000630 
+The 93 th x is -3.192212 with k being 0.000642 
+The 94 th x is -3.183527 with k being 0.000655 
+The 95 th x is -3.174841 with k being 0.000669 
+The 96 th x is -3.166154 with k being 0.000682 
+The 97 th x is -3.157469 with k being 0.000696 
+The 98 th x is -3.148783 with k being 0.000710 
+The 99 th x is -3.140097 with k being 0.000724 
+The 100 th x is -3.131411 with k being 0.000739 
+The 101 th x is -3.122725 with k being 0.000754 
+The 102 th x is -3.114039 with k being 0.000769 
+The 103 th x is -3.105353 with k being 0.000785 
+The 104 th x is -3.096667 with k being 0.000800 
+The 105 th x is -3.087982 with k being 0.000817 
+The 106 th x is -3.079296 with k being 0.000833 
+The 107 th x is -3.070610 with k being 0.000850 
+The 108 th x is -3.061924 with k being 0.000867 
+The 109 th x is -3.053238 with k being 0.000885 
+The 110 th x is -3.044552 with k being 0.000903 
+The 111 th x is -3.035866 with k being 0.000921 
+The 112 th x is -3.027180 with k being 0.000939 
+The 113 th x is -3.018494 with k being 0.000958 
+The 114 th x is -3.009809 with k being 0.000978 
+The 115 th x is -3.001123 with k being 0.000997 
+The 116 th x is -2.992436 with k being 0.001018 
+The 117 th x is -2.983752 with k being 0.001038 
+The 118 th x is -2.975063 with k being 0.001059 
+The 119 th x is -2.966379 with k being 0.001080 
+The 120 th x is -2.957692 with k being 0.001102 
+The 121 th x is -2.949006 with k being 0.001125 
+The 122 th x is -2.940323 with k being 0.001147 
+The 123 th x is -2.931636 with k being 0.001170 
+The 124 th x is -2.922948 with k being 0.001194 
+The 125 th x is -2.914264 with k being 0.001218 
+The 126 th x is -2.905578 with k being 0.001243 
+The 127 th x is -2.896891 with k being 0.001268 
+The 128 th x is -2.888207 with k being 0.001294 
+The 129 th x is -2.879521 with k being 0.001320 
+The 130 th x is -2.870836 with k being 0.001346 
+The 131 th x is -2.862149 with k being 0.001374 
+The 132 th x is -2.853463 with k being 0.001401 
+The 133 th x is -2.844776 with k being 0.001430 
+The 134 th x is -2.836091 with k being 0.001459 
+The 135 th x is -2.827406 with k being 0.001488 
+The 136 th x is -2.818720 with k being 0.001518 
+The 137 th x is -2.810033 with k being 0.001549 
+The 138 th x is -2.801348 with k being 0.001580 
+The 139 th x is -2.792662 with k being 0.001612 
+The 140 th x is -2.783977 with k being 0.001644 
+The 141 th x is -2.775291 with k being 0.001678 
+The 142 th x is -2.766603 with k being 0.001712 
+The 143 th x is -2.757918 with k being 0.001746 
+The 144 th x is -2.749231 with k being 0.001781 
+The 145 th x is -2.740547 with k being 0.001817 
+The 146 th x is -2.731860 with k being 0.001854 
+The 147 th x is -2.723175 with k being 0.001892 
+The 148 th x is -2.714488 with k being 0.001930 
+The 149 th x is -2.705803 with k being 0.001969 
+The 150 th x is -2.697117 with k being 0.002009 
+The 151 th x is -2.688430 with k being 0.002049 
+The 152 th x is -2.679746 with k being 0.002091 
+The 153 th x is -2.671058 with k being 0.002133 
+The 154 th x is -2.662373 with k being 0.002176 
+The 155 th x is -2.653688 with k being 0.002220 
+The 156 th x is -2.645001 with k being 0.002265 
+The 157 th x is -2.636315 with k being 0.002310 
+The 158 th x is -2.627629 with k being 0.002357 
+The 159 th x is -2.618945 with k being 0.002405 
+The 160 th x is -2.610258 with k being 0.002453 
+The 161 th x is -2.601572 with k being 0.002503 
+The 162 th x is -2.592886 with k being 0.002553 
+The 163 th x is -2.584201 with k being 0.002605 
+The 164 th x is -2.575514 with k being 0.002658 
+The 165 th x is -2.566829 with k being 0.002711 
+The 166 th x is -2.558143 with k being 0.002766 
+The 167 th x is -2.549457 with k being 0.002822 
+The 168 th x is -2.540770 with k being 0.002879 
+The 169 th x is -2.532084 with k being 0.002937 
+The 170 th x is -2.523399 with k being 0.002996 
+The 171 th x is -2.514713 with k being 0.003057 
+The 172 th x is -2.506026 with k being 0.003119 
+The 173 th x is -2.497341 with k being 0.003182 
+The 174 th x is -2.488655 with k being 0.003246 
+The 175 th x is -2.479969 with k being 0.003312 
+The 176 th x is -2.471284 with k being 0.003378 
+The 177 th x is -2.462598 with k being 0.003447 
+The 178 th x is -2.453912 with k being 0.003516 
+The 179 th x is -2.445226 with k being 0.003587 
+The 180 th x is -2.436540 with k being 0.003660 
+The 181 th x is -2.427854 with k being 0.003734 
+The 182 th x is -2.419169 with k being 0.003809 
+The 183 th x is -2.410483 with k being 0.003886 
+The 184 th x is -2.401796 with k being 0.003965 
+The 185 th x is -2.393110 with k being 0.004045 
+The 186 th x is -2.384424 with k being 0.004126 
+The 187 th x is -2.375739 with k being 0.004210 
+The 188 th x is -2.367053 with k being 0.004295 
+The 189 th x is -2.358367 with k being 0.004382 
+The 190 th x is -2.349681 with k being 0.004470 
+The 191 th x is -2.340995 with k being 0.004560 
+The 192 th x is -2.332309 with k being 0.004653 
+The 193 th x is -2.323624 with k being 0.004747 
+The 194 th x is -2.314938 with k being 0.004842 
+The 195 th x is -2.306252 with k being 0.004940 
+The 196 th x is -2.297566 with k being 0.005040 
+The 197 th x is -2.288880 with k being 0.005142 
+The 198 th x is -2.280194 with k being 0.005246 
+The 199 th x is -2.271508 with k being 0.005352 
+The 200 th x is -2.262822 with k being 0.005460 
+The 201 th x is -2.254136 with k being 0.005570 
+The 202 th x is -2.245451 with k being 0.005683 
+The 203 th x is -2.236764 with k being 0.005797 
+The 204 th x is -2.228078 with k being 0.005915 
+The 205 th x is -2.219393 with k being 0.006034 
+The 206 th x is -2.210707 with k being 0.006156 
+The 207 th x is -2.202021 with k being 0.006280 
+The 208 th x is -2.193335 with k being 0.006407 
+The 209 th x is -2.184649 with k being 0.006537 
+The 210 th x is -2.175963 with k being 0.006669 
+The 211 th x is -2.167277 with k being 0.006803 
+The 212 th x is -2.158592 with k being 0.006941 
+The 213 th x is -2.149905 with k being 0.007081 
+The 214 th x is -2.141220 with k being 0.007224 
+The 215 th x is -2.132534 with k being 0.007370 
+The 216 th x is -2.123848 with k being 0.007519 
+The 217 th x is -2.115162 with k being 0.007671 
+The 218 th x is -2.106476 with k being 0.007826 
+The 219 th x is -2.097790 with k being 0.007984 
+The 220 th x is -2.089104 with k being 0.008145 
+The 221 th x is -2.080418 with k being 0.008310 
+The 222 th x is -2.071732 with k being 0.008478 
+The 223 th x is -2.063047 with k being 0.008649 
+The 224 th x is -2.054361 with k being 0.008823 
+The 225 th x is -2.045675 with k being 0.009002 
+The 226 th x is -2.036989 with k being 0.009184 
+The 227 th x is -2.028303 with k being 0.009369 
+The 228 th x is -2.019617 with k being 0.009558 
+The 229 th x is -2.010931 with k being 0.009751 
+The 230 th x is -2.002245 with k being 0.009948 
+The 231 th x is -1.993560 with k being 0.010149 
+The 232 th x is -1.984875 with k being 0.010354 
+The 233 th x is -1.976188 with k being 0.010564 
+The 234 th x is -1.967502 with k being 0.010777 
+The 235 th x is -1.958817 with k being 0.010995 
+The 236 th x is -1.950131 with k being 0.011217 
+The 237 th x is -1.941445 with k being 0.011443 
+The 238 th x is -1.932758 with k being 0.011675 
+The 239 th x is -1.924074 with k being 0.011910 
+The 240 th x is -1.915388 with k being 0.012151 
+The 241 th x is -1.906701 with k being 0.012396 
+The 242 th x is -1.898016 with k being 0.012647 
+The 243 th x is -1.889329 with k being 0.012902 
+The 244 th x is -1.880642 with k being 0.013163 
+The 245 th x is -1.871956 with k being 0.013429 
+The 246 th x is -1.863270 with k being 0.013700 
+The 247 th x is -1.854586 with k being 0.013977 
+The 248 th x is -1.845899 with k being 0.014259 
+The 249 th x is -1.837215 with k being 0.014547 
+The 250 th x is -1.828528 with k being 0.014841 
+The 251 th x is -1.819843 with k being 0.015141 
+The 252 th x is -1.811156 with k being 0.015447 
+The 253 th x is -1.802471 with k being 0.015759 
+The 254 th x is -1.793784 with k being 0.016077 
+The 255 th x is -1.785098 with k being 0.016402 
+The 256 th x is -1.776413 with k being 0.016733 
+The 257 th x is -1.767726 with k being 0.017072 
+The 258 th x is -1.759042 with k being 0.017416 
+The 259 th x is -1.750354 with k being 0.017768 
+The 260 th x is -1.741669 with k being 0.018127 
+The 261 th x is -1.732983 with k being 0.018493 
+The 262 th x is -1.724297 with k being 0.018867 
+The 263 th x is -1.715612 with k being 0.019248 
+The 264 th x is -1.706925 with k being 0.019637 
+The 265 th x is -1.698239 with k being 0.020034 
+The 266 th x is -1.689553 with k being 0.020438 
+The 267 th x is -1.680867 with k being 0.020851 
+The 268 th x is -1.672181 with k being 0.021272 
+The 269 th x is -1.663496 with k being 0.021702 
+The 270 th x is -1.654811 with k being 0.022141 
+The 271 th x is -1.646124 with k being 0.022588 
+The 272 th x is -1.637438 with k being 0.023044 
+The 273 th x is -1.628753 with k being 0.023510 
+The 274 th x is -1.620066 with k being 0.023985 
+The 275 th x is -1.611380 with k being 0.024469 
+The 276 th x is -1.602695 with k being 0.024963 
+The 277 th x is -1.594009 with k being 0.025468 
+The 278 th x is -1.585322 with k being 0.025982 
+The 279 th x is -1.576636 with k being 0.026507 
+The 280 th x is -1.567952 with k being 0.027043 
+The 281 th x is -1.559266 with k being 0.027589 
+The 282 th x is -1.550579 with k being 0.028146 
+The 283 th x is -1.541893 with k being 0.028715 
+The 284 th x is -1.533208 with k being 0.029295 
+The 285 th x is -1.524522 with k being 0.029887 
+The 286 th x is -1.515835 with k being 0.030491 
+The 287 th x is -1.507150 with k being 0.031106 
+The 288 th x is -1.498464 with k being 0.031735 
+The 289 th x is -1.489778 with k being 0.032376 
+The 290 th x is -1.481093 with k being 0.033030 
+The 291 th x is -1.472406 with k being 0.033697 
+The 292 th x is -1.463721 with k being 0.034378 
+The 293 th x is -1.455035 with k being 0.035072 
+The 294 th x is -1.446349 with k being 0.035781 
+The 295 th x is -1.437662 with k being 0.036504 
+The 296 th x is -1.428976 with k being 0.037241 
+The 297 th x is -1.420291 with k being 0.037993 
+The 298 th x is -1.411605 with k being 0.038761 
+The 299 th x is -1.402919 with k being 0.039544 
+The 300 th x is -1.394233 with k being 0.040343 
+The 301 th x is -1.385547 with k being 0.041158 
+The 302 th x is -1.376861 with k being 0.041989 
+The 303 th x is -1.368176 with k being 0.042838 
+The 304 th x is -1.359490 with k being 0.043703 
+The 305 th x is -1.350803 with k being 0.044586 
+The 306 th x is -1.342117 with k being 0.045486 
+The 307 th x is -1.333432 with k being 0.046405 
+The 308 th x is -1.324746 with k being 0.047343 
+The 309 th x is -1.316060 with k being 0.048299 
+The 310 th x is -1.307374 with k being 0.049275 
+The 311 th x is -1.298689 with k being 0.050270 
+The 312 th x is -1.290003 with k being 0.051286 
+The 313 th x is -1.281316 with k being 0.052322 
+The 314 th x is -1.272630 with k being 0.053379 
+The 315 th x is -1.263945 with k being 0.054457 
+The 316 th x is -1.255259 with k being 0.055557 
+The 317 th x is -1.246573 with k being 0.056680 
+The 318 th x is -1.237887 with k being 0.057825 
+The 319 th x is -1.229202 with k being 0.058993 
+The 320 th x is -1.220515 with k being 0.060185 
+The 321 th x is -1.211830 with k being 0.061400 
+The 322 th x is -1.203143 with k being 0.062641 
+The 323 th x is -1.194458 with k being 0.063906 
+The 324 th x is -1.185772 with k being 0.065197 
+The 325 th x is -1.177086 with k being 0.066514 
+The 326 th x is -1.168400 with k being 0.067858 
+The 327 th x is -1.159714 with k being 0.069229 
+The 328 th x is -1.151028 with k being 0.070627 
+The 329 th x is -1.142343 with k being 0.072054 
+The 330 th x is -1.133657 with k being 0.073510 
+The 331 th x is -1.124971 with k being 0.074995 
+The 332 th x is -1.116285 with k being 0.076509 
+The 333 th x is -1.107599 with k being 0.078055 
+The 334 th x is -1.098913 with k being 0.079632 
+The 335 th x is -1.090227 with k being 0.081241 
+The 336 th x is -1.081541 with k being 0.082882 
+The 337 th x is -1.072855 with k being 0.084556 
+The 338 th x is -1.064169 with k being 0.086264 
+The 339 th x is -1.055484 with k being 0.088007 
+The 340 th x is -1.046798 with k being 0.089785 
+The 341 th x is -1.038112 with k being 0.091598 
+The 342 th x is -1.029426 with k being 0.093449 
+The 343 th x is -1.020740 with k being 0.095337 
+The 344 th x is -1.012054 with k being 0.097263 
+The 345 th x is -1.003368 with k being 0.099227 
+The 346 th x is -0.994682 with k being 0.101232 
+The 347 th x is -0.985996 with k being 0.103277 
+The 348 th x is -0.977312 with k being 0.105363 
+The 349 th x is -0.968624 with k being 0.107492 
+The 350 th x is -0.959940 with k being 0.109663 
+The 351 th x is -0.951251 with k being 0.111879 
+The 352 th x is -0.942566 with k being 0.114139 
+The 353 th x is -0.933879 with k being 0.116445 
+The 354 th x is -0.925195 with k being 0.118797 
+The 355 th x is -0.916508 with k being 0.121197 
+The 356 th x is -0.907823 with k being 0.123645 
+The 357 th x is -0.899137 with k being 0.126143 
+The 358 th x is -0.890452 with k being 0.128691 
+The 359 th x is -0.881765 with k being 0.131291 
+The 360 th x is -0.873080 with k being 0.133943 
+The 361 th x is -0.864394 with k being 0.136649 
+The 362 th x is -0.855709 with k being 0.139409 
+The 363 th x is -0.847021 with k being 0.142226 
+The 364 th x is -0.838336 with k being 0.145099 
+The 365 th x is -0.829650 with k being 0.148030 
+The 366 th x is -0.820966 with k being 0.151020 
+The 367 th x is -0.812279 with k being 0.154071 
+The 368 th x is -0.803592 with k being 0.157184 
+The 369 th x is -0.794907 with k being 0.160359 
+The 370 th x is -0.786222 with k being 0.163598 
+The 371 th x is -0.777536 with k being 0.166903 
+The 372 th x is -0.768849 with k being 0.170275 
+The 373 th x is -0.760163 with k being 0.173715 
+The 374 th x is -0.751477 with k being 0.177224 
+The 375 th x is -0.742792 with k being 0.180804 
+The 376 th x is -0.734105 with k being 0.184457 
+The 377 th x is -0.725420 with k being 0.188183 
+The 378 th x is -0.716733 with k being 0.191985 
+The 379 th x is -0.708048 with k being 0.195863 
+The 380 th x is -0.699361 with k being 0.199820 
+The 381 th x is -0.690677 with k being 0.203856 
+The 382 th x is -0.681991 with k being 0.207974 
+The 383 th x is -0.673304 with k being 0.212176 
+The 384 th x is -0.664618 with k being 0.216462 
+The 385 th x is -0.655932 with k being 0.220835 
+The 386 th x is -0.647247 with k being 0.225296 
+The 387 th x is -0.638561 with k being 0.229847 
+The 388 th x is -0.629876 with k being 0.234490 
+The 389 th x is -0.621190 with k being 0.239227 
+The 390 th x is -0.612503 with k being 0.244060 
+The 391 th x is -0.603818 with k being 0.248990 
+The 392 th x is -0.595132 with k being 0.254020 
+The 393 th x is -0.586445 with k being 0.259152 
+The 394 th x is -0.577760 with k being 0.264387 
+The 395 th x is -0.569074 with k being 0.269728 
+The 396 th x is -0.560388 with k being 0.275177 
+The 397 th x is -0.551702 with k being 0.280736 
+The 398 th x is -0.543016 with k being 0.286407 
+The 399 th x is -0.534330 with k being 0.292193 
+The 400 th x is -0.525644 with k being 0.298096 
+The 401 th x is -0.516958 with k being 0.304118 
+The 402 th x is -0.508273 with k being 0.310261 
+The 403 th x is -0.499586 with k being 0.316529 
+The 404 th x is -0.490901 with k being 0.322923 
+The 405 th x is -0.482214 with k being 0.329447 
+The 406 th x is -0.473529 with k being 0.336102 
+The 407 th x is -0.464843 with k being 0.342892 
+The 408 th x is -0.456157 with k being 0.349819 
+The 409 th x is -0.447472 with k being 0.356885 
+The 410 th x is -0.438785 with k being 0.364095 
+The 411 th x is -0.430100 with k being 0.371450 
+The 412 th x is -0.421414 with k being 0.378954 
+The 413 th x is -0.412728 with k being 0.386609 
+The 414 th x is -0.404042 with k being 0.394419 
+The 415 th x is -0.395356 with k being 0.402387 
+The 416 th x is -0.386670 with k being 0.410516 
+The 417 th x is -0.377984 with k being 0.418809 
+The 418 th x is -0.369299 with k being 0.427269 
+The 419 th x is -0.360612 with k being 0.435901 
+The 420 th x is -0.351927 with k being 0.444706 
+The 421 th x is -0.343241 with k being 0.453690 
+The 422 th x is -0.334555 with k being 0.462855 
+The 423 th x is -0.325868 with k being 0.472206 
+The 424 th x is -0.317183 with k being 0.481745 
+The 425 th x is -0.308497 with k being 0.491477 
+The 426 th x is -0.299811 with k being 0.501405 
+The 427 th x is -0.291125 with k being 0.511534 
+The 428 th x is -0.282439 with k being 0.521868 
+The 429 th x is -0.273753 with k being 0.532411 
+The 430 th x is -0.265067 with k being 0.543166 
+The 431 th x is -0.256381 with k being 0.554139 
+The 432 th x is -0.247696 with k being 0.565333 
+The 433 th x is -0.239010 with k being 0.576753 
+The 434 th x is -0.230324 with k being 0.588404 
+The 435 th x is -0.221638 with k being 0.600291 
+The 436 th x is -0.212952 with k being 0.612418 
+The 437 th x is -0.204267 with k being 0.624789 
+The 438 th x is -0.195580 with k being 0.637411 
+The 439 th x is -0.186894 with k being 0.650288 
+The 440 th x is -0.186894 with k being 0.650288 
+The 441 th x is -0.186894 with k being 0.650288 
+The 442 th x is -0.186894 with k being 0.650288 
+The 443 th x is -0.186894 with k being 0.650288 
+The 444 th x is -0.186894 with k being 0.650288 
+The 445 th x is -0.186894 with k being 0.650288 
+The 446 th x is -0.186894 with k being 0.650288 
+The 447 th x is -0.186894 with k being 0.650288 
+The 448 th x is -0.186894 with k being 0.650288 
+The 449 th x is -0.186894 with k being 0.650288 
+The 450 th x is -0.186894 with k being 0.650288 
+The 451 th x is -0.186894 with k being 0.650288 
+The 452 th x is -0.186894 with k being 0.650288 
+The 453 th x is -0.186894 with k being 0.650288 
+The 454 th x is -0.186894 with k being 0.650288 
+The 455 th x is -0.186894 with k being 0.650288 
+The 456 th x is -0.186894 with k being 0.650288 
+The 457 th x is -0.186894 with k being 0.650288 
+The 458 th x is -0.186894 with k being 0.650288 
+The 459 th x is -0.186894 with k being 0.650288 
+The 460 th x is -0.186894 with k being 0.650288 
+The 461 th x is -0.186894 with k being 0.650288 
+The 462 th x is -0.186894 with k being 0.650288 
+The 463 th x is -0.186894 with k being 0.650288 
+The 464 th x is -0.186894 with k being 0.650288 
+The 465 th x is -0.186894 with k being 0.650288 
+The 466 th x is -0.186894 with k being 0.650288 
+The 467 th x is -0.186894 with k being 0.650288 
+The 468 th x is -0.186894 with k being 0.650288 
+The 469 th x is -0.186894 with k being 0.650288 
+The 470 th x is -0.186894 with k being 0.650288 
+The 471 th x is -0.186894 with k being 0.650288 
+The 472 th x is -0.186894 with k being 0.650288 
+The 473 th x is -0.186894 with k being 0.650288 
+The 474 th x is -0.186894 with k being 0.650288 
+The 475 th x is -0.186894 with k being 0.650288 
+The 476 th x is -0.186894 with k being 0.650288 
+The 477 th x is -0.186894 with k being 0.650288 
+The 478 th x is -0.186894 with k being 0.650288 
+The 479 th x is -0.186894 with k being 0.650288 
+The 480 th x is -0.186894 with k being 0.650288 
+The 481 th x is -0.186894 with k being 0.650288 
+The 482 th x is -0.186894 with k being 0.650288 
+The 483 th x is -0.186894 with k being 0.650288 
+The 484 th x is -0.186894 with k being 0.650288 
+The 485 th x is -0.186894 with k being 0.650288 
+The 486 th x is -0.186894 with k being 0.650288 
+The 487 th x is -0.186894 with k being 0.650288 
+The 488 th x is -0.186894 with k being 0.650288 
+The 489 th x is -0.186894 with k being 0.650288 
+The 490 th x is -0.186894 with k being 0.650288 
+The 491 th x is -0.186894 with k being 0.650288 
+The 492 th x is -0.186894 with k being 0.650288 
+The 493 th x is -0.186894 with k being 0.650288 
+The 494 th x is -0.186894 with k being 0.650288 
+The 495 th x is -0.186894 with k being 0.650288 
+The 496 th x is -0.186894 with k being 0.650288 
+The 497 th x is -0.186894 with k being 0.650288 
+The 498 th x is -0.186894 with k being 0.650288 
+The 499 th x is -0.186894 with k being 0.650288 
+The 500 th x is -0.186894 with k being 0.650288 
+The 501 th x is -0.186894 with k being 0.650288 
+The 502 th x is -0.186894 with k being 0.650288 
+The 503 th x is -0.186894 with k being 0.650288 
+The 504 th x is -0.186894 with k being 0.650288 
+The 505 th x is -0.186894 with k being 0.650288 
+The 506 th x is -0.186894 with k being 0.650288 
+The 507 th x is -0.186894 with k being 0.650288 
+The 508 th x is -0.186894 with k being 0.650288 
+The 509 th x is -0.186894 with k being 0.650288 
+The 510 th x is -0.186894 with k being 0.650288 
+The 511 th x is -0.186894 with k being 0.650288 
+The 512 th x is -0.186894 with k being 0.650288 
+The 513 th x is -0.186894 with k being 0.650288 
+The 514 th x is -0.186894 with k being 0.650288 
+The 515 th x is -0.186894 with k being 0.650288 
+The 516 th x is -0.186894 with k being 0.650288 
+The 517 th x is -0.186894 with k being 0.650288 
+The 518 th x is -0.186894 with k being 0.650288 
+The 519 th x is -0.186894 with k being 0.650288 
+The 520 th x is -0.186894 with k being 0.650288 
+The 521 th x is -0.186894 with k being 0.650288 
+The 522 th x is -0.186894 with k being 0.650288 
+The 523 th x is -0.186894 with k being 0.650288 
+The 524 th x is -0.186894 with k being 0.650288 
+The 525 th x is -0.186894 with k being 0.650288 
+The 526 th x is -0.186894 with k being 0.650288 
+The 527 th x is -0.186894 with k being 0.650288 
+The 528 th x is -0.186894 with k being 0.650288 
+The 529 th x is -0.186894 with k being 0.650288 
+The 530 th x is -0.186894 with k being 0.650288 
+The 531 th x is -0.186894 with k being 0.650288 
+The 532 th x is -0.186894 with k being 0.650288 
+The 533 th x is -0.186894 with k being 0.650288 
+The 534 th x is -0.186894 with k being 0.650288 
+The 535 th x is -0.186894 with k being 0.650288 
+The 536 th x is -0.186894 with k being 0.650288 
+The 537 th x is -0.186894 with k being 0.650288 
+The 538 th x is -0.186894 with k being 0.650288 
+The 539 th x is -0.186894 with k being 0.650288 
+The 540 th x is -0.186894 with k being 0.650288 
+The 541 th x is -0.186894 with k being 0.650288 
+The 542 th x is -0.186894 with k being 0.650288 
+The 543 th x is -0.186894 with k being 0.650288 
+The 544 th x is -0.186894 with k being 0.650288 
+The 545 th x is -0.186894 with k being 0.650288 
+The 546 th x is -0.186894 with k being 0.650288 
+The 547 th x is -0.186894 with k being 0.650288 
+The 548 th x is -0.186894 with k being 0.650288 
+The 549 th x is -0.186894 with k being 0.650288 
+The 550 th x is -0.186894 with k being 0.650288 
+The 551 th x is -0.186894 with k being 0.650288 
+The 552 th x is -0.186894 with k being 0.650288 
+The 553 th x is -0.186894 with k being 0.650288 
+The 554 th x is -0.186894 with k being 0.650288 
+The 555 th x is -0.186894 with k being 0.650288 
+The 556 th x is -0.186894 with k being 0.650288 
+The 557 th x is -0.186894 with k being 0.650288 
+The 558 th x is -0.186894 with k being 0.650288 
+The 559 th x is -0.186894 with k being 0.650288 
+The 560 th x is -0.186894 with k being 0.650288 
+The 561 th x is -0.186894 with k being 0.650288 
+The 562 th x is -0.186894 with k being 0.650288 
+The 563 th x is -0.186894 with k being 0.650288 
+The 564 th x is -0.186894 with k being 0.650288 
+The 565 th x is -0.186894 with k being 0.650288 
+The 566 th x is -0.186894 with k being 0.650288 
+The 567 th x is -0.186894 with k being 0.650288 
+The 568 th x is -0.186894 with k being 0.650288 
+The 569 th x is -0.186894 with k being 0.650288 
+The 570 th x is -0.186894 with k being 0.650288 
+The 571 th x is -0.186894 with k being 0.650288 
+The 572 th x is -0.186894 with k being 0.650288 
+The 573 th x is -0.186894 with k being 0.650288 
+The 574 th x is -0.186894 with k being 0.650288 
+The 575 th x is -0.186894 with k being 0.650288 
+The 576 th x is -0.186894 with k being 0.650288 
+The 577 th x is -0.186894 with k being 0.650288 
+The 578 th x is -0.186894 with k being 0.650288 
+The 579 th x is -0.186894 with k being 0.650288 
+The 580 th x is -0.186894 with k being 0.650288 
+The 581 th x is -0.186894 with k being 0.650288 
+The 582 th x is -0.186894 with k being 0.650288 
+The 583 th x is -0.186894 with k being 0.650288 
+The 584 th x is -0.186894 with k being 0.650288 
+The 585 th x is -0.186894 with k being 0.650288 
+The 586 th x is -0.186894 with k being 0.650288 
+The 587 th x is -0.186894 with k being 0.650288 
+The 588 th x is -0.186894 with k being 0.650288 
+The 589 th x is -0.186894 with k being 0.650288 
+The 590 th x is -0.186894 with k being 0.650288 
+The 591 th x is -0.186894 with k being 0.650288 
+The 592 th x is -0.186894 with k being 0.650288 
+The 593 th x is -0.186894 with k being 0.650288 
+The 594 th x is -0.186894 with k being 0.650288 
+The 595 th x is -0.186894 with k being 0.650288 
+The 596 th x is -0.186894 with k being 0.650288 
+The 597 th x is -0.186894 with k being 0.650288 
+The 598 th x is -0.186894 with k being 0.650288 
+The 599 th x is -0.186894 with k being 0.650288 
+The 600 th x is -0.186894 with k being 0.650288 
+The 601 th x is -0.186894 with k being 0.650288 
+The 602 th x is -0.186894 with k being 0.650288 
+The 603 th x is -0.186894 with k being 0.650288 
+The 604 th x is -0.186894 with k being 0.650288 
+The 605 th x is -0.186894 with k being 0.650288 
+The 606 th x is -0.186894 with k being 0.650288 
+The 607 th x is -0.186894 with k being 0.650288 
+The 608 th x is -0.186894 with k being 0.650288 
+The 609 th x is -0.186894 with k being 0.650288 
+The 610 th x is -0.186894 with k being 0.650288 
+The 611 th x is -0.186894 with k being 0.650288 
+The 612 th x is -0.186894 with k being 0.650288 
+The 613 th x is -0.186894 with k being 0.650288 
+The 614 th x is -0.186894 with k being 0.650288 
+The 615 th x is -0.186894 with k being 0.650288 
+The 616 th x is -0.186894 with k being 0.650288 
+The 617 th x is -0.186894 with k being 0.650288 
+The 618 th x is -0.186894 with k being 0.650288 
+The 619 th x is -0.186894 with k being 0.650288 
+gsl: interp.c:83: ERROR: x values must be strictly increasing
+Default GSL error handler invoked.
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+srun: error: nid00903: task 11: Aborted
+srun: error: nid00903: tasks 17,25: Segmentation fault
+srun: error: nid00903: tasks 6-7,21,31: Segmentation fault
+srun: error: nid00904: tasks 39,45,47,50,53-54,57,62-63: Segmentation fault
+srun: error: nid00903: tasks 19,22,26-27: Segmentation fault
+srun: error: nid00903: tasks 2-3,5,8,12,20,23,29: Segmentation fault
+srun: error: nid00904: tasks 37,43-44,46,48,52: Segmentation fault
+srun: error: nid00904: tasks 36,38,41,56,58,60: Segmentation fault
+srun: error: nid00904: tasks 35,42,61: Segmentation fault
+srun: error: nid00903: tasks 1,10,13,15-16,28: Segmentation fault
+srun: error: nid00904: tasks 33-34,40,49,51,55,59: Segmentation fault
+srun: error: nid00904: task 32: Segmentation fault

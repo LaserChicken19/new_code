@@ -1,0 +1,106 @@
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+srun: error: nid01490: tasks 2,6-7,9,14: Segmentation fault
+srun: Terminating job step 13546853.0
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+srun: error: nid01493: tasks 17,20-21,24,30: Segmentation fault
+srun: error: nid01490: tasks 0-1,5: Segmentation fault
+srun: error: nid01493: tasks 18-19,22,26,28,31: Segmentation fault
+srun: error: nid01490: tasks 4,11-13: Segmentation fault
+srun: error: nid01493: tasks 16,23,27: Segmentation fault
+srun: error: nid01490: tasks 3,8,10,15: Segmentation fault
+srun: error: nid01493: tasks 25,29: Terminated
+srun: Force Terminated job step 13546853.0

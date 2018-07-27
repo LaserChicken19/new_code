@@ -1,0 +1,8 @@
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+srun: error: nid00458: tasks 0-1: Segmentation fault
+srun: Terminating job step 13391477.0

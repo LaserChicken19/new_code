@@ -1,0 +1,26 @@
+ WARNING: nu_mass_degeneracies ignored when share_delta_neff
+at z =  0.000 sigma8 (all matter) =  0.7963
+at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
+check point 0
+check point 1 passed
+check point 2 passed
+check point 3 passed
+total line is 698
+In matterpower (GSL tab), skipping 1 lines
+check point 4 passed
+In matterpower (NR tab), skipping 1 lines
+check point 5 passed
+D(z=0)=0.999986, D(z=1)=0.612062, D(z=2)=0.421659
+the raw sigma8 = 0.795843
+growth_k0_new  = 0.779909
+check point 6 passed
+Total number of lines is 2000
+check point 7 passed
+check point 8 passed
+I see 10000 SN in that file
+check point 9 passed
+*************************************
+time for covariance  evaluation only=17114.292416
+*************************************
+7.764490e-02 3.950916e-04
+complete!
