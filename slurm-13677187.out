@@ -1,7 +1,0 @@
- WARNING: nu_mass_degeneracies ignored when share_delta_neff
-at z =  0.000 sigma8 (all matter) =  0.7963
-at z =  0.000 sigma8^2_vd/sigma8  =  0.4083
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-srun: got SIGCONT
-slurmstepd: error: *** STEP 13677187.0 ON nid00502 CANCELLED AT 2018-07-17T21:24:44 ***
-srun: forcing job termination
